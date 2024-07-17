@@ -77,6 +77,11 @@ img{
 
 }
 
+.navbar .logo img{
+    width: 48px;
+    height: 56.01px;
+}
+
 .navbar ul{
     display: flex;
     justify-content: center;
@@ -210,3 +215,52 @@ section{
 }
 
 /* <!-- Tour section  --> */
+
+
+/*  <!-- Choose Your Destination --> */
+.row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.row-2{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 0.7fr;
+    margin: 1rem 0;
+    gap: 1rem;
+
+}
+.row-3{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+
+}
+
+.destination_container img{
+    filter: brightness(70%);
+    height: 300px;
+}
+
+
+.country-card{
+    position: relative;
+}
+
+.country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    transform: translate(-50% , -50%);
+
+}
+
+
+
+/*  <!-- Choose Your Destination --> */
